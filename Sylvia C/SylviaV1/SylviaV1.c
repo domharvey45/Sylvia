@@ -11,7 +11,7 @@ struct movementDetails
 
 int main()
 {
-    // START UP
+    // START UP //
     struct movementDetails forwards, backwards, clockwise, aClockwise;          //generate direction structures for configuring the h-bridge
     forwards.transistors[0] = 1;
     forwards.transistors[3] = 1;
@@ -37,32 +37,11 @@ int main()
     aClockwise.transistors[7] = 1;
     strcpy(aClockwise.name, "Anticlockwise");
 
-    // READ MAP AND CONVERT INTO INSTRUCTIONS
-    // Establish next position angle
-    // Angle to time conversion
-    // write direction and time
-    // Establish next position distance
-    // Distance to time conversion
-    // write
-    // Direction Control select correct movement
+    // LOOPING //
+    //RECEIVER INPUT CONFIGURATION
+    //take signal input
+    //convert to direction
+    //switch case for setting h-bridge for x many seconds
 
     return 0;
 }
-
-// Linear Track Control
-//int LinearTrackControl(float currentPosition, float targetPosition, float timeLinear)
-//{
-    // switch case for forwards or backwards
-    // pin setup and pullups
-    // H-bridge calibration
-//}
-
-// Rotational Track Control
-//int RotationalTrackControl(float targetAngle, float timeAngle)
-//{
-    // switch case for positive/negative angle
-    // pin setup and pullups
-    // H-bridge config
-//}
-
-// Vision?
