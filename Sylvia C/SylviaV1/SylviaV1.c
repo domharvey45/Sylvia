@@ -39,9 +39,43 @@ int main()
 
     // LOOPING //
     //RECEIVER INPUT CONFIGURATION
-    //take signal input
-    //convert to direction
-    //switch case for setting h-bridge for x many seconds
+    int goFlag = 1;
+    char dirInput[1];
 
+    while (goFlag == 1)
+    {
+        printf("\nPlease input WASD direction (Break using Q): ");
+        scanf("%s", dirInput);
+
+        if (strcmp(dirInput, "w") == 0)
+        {
+            printf("%s", forwards.name);
+            //pin config
+        }
+
+        else if (strcmp(dirInput, "a") == 0)
+        {
+            printf("%s", aClockwise.name);
+            //pin config
+        }
+
+        else if (strcmp(dirInput, "d") == 0)
+        {
+            printf("%s", clockwise.name);
+            //pin config
+        }
+
+        else if (strcmp(dirInput, "s") == 0)
+        {
+            printf("%s", backwards.name);
+            //pin config
+        }
+
+        else if (strcmp(dirInput, "q") == 0)
+        {
+            printf("Exiting...");
+            goFlag = 0;
+        }
+    }
     return 0;
 }

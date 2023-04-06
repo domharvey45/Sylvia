@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Dom Harvey/Documents/Dom's Stuff/Coding/Personal Robotics/Sylvia/Sylvia C/SylviaV2",
-      "program": "c:/Users/Dom Harvey/Documents/Dom's Stuff/Coding/Personal Robotics/Sylvia/Sylvia C/SylviaV2/build/Debug/outDebug",
+      "cwd": "c:/Users/Dom Harvey/Documents/Dom's Stuff/Coding/Personal Robotics/Sylvia/Sylvia C/SylviaV1",
+      "program": "c:/Users/Dom Harvey/Documents/Dom's Stuff/Coding/Personal Robotics/Sylvia/Sylvia C/SylviaV1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
